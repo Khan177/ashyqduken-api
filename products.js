@@ -1,39 +1,41 @@
-const items = [
+const phones = [
   {
     id: 1,
-    type: "laptop",
+    type: "phone",
     brand: "Apple",
     name: "Apple iPhone 11 64GB черный",
     price: 346298,
   },
   {
     id: 2,
-    type: "laptop",
+    type: "phone",
     brand: "Apple",
     name: "Apple iPhone 7 32 GB черный",
     price: 152887,
   },
   {
     id: 3,
-    type: "laptop",
+    type: "phone",
     brand: "Samsung",
     name: "Samsung Galaxy A20s 32Gb черный",
     price: 78890,
   },
   {
     id: 4,
-    type: "laptop",
+    type: "phone",
     brand: "Samsung",
     name: "Samsung Galaxy A51 6/128Gb Черный",
     price: 115966,
   },
   {
     id: 5,
-    type: "laptop",
+    type: "phone",
     brand: "Samsung",
     name: "Samsung Galaxy A10 черный",
     price: 43560,
   },
+];
+const laptops = [
   {
     id: 6,
     type: "phone",
@@ -71,4 +73,8 @@ const items = [
   },
 ];
 
-module.exports = items;
+module.exports = {
+  allItems: [...phones, ...laptops],
+  phones: phones,
+  laptops: laptops,
+};
