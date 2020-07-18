@@ -4,7 +4,8 @@
   "description": "MyFirstApi",
   "main": "main.js",
   "scripts": {
-    "test": "run test"
+    "test": "run test",
+    "start": "node main.js"
   },
   "author": "Khanter",
   "license": "ISC",
