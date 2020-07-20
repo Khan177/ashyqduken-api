@@ -10,7 +10,7 @@ const categories = [
     id: 1,
     name: "Noýtbýk",
     path: "laptops",
-    image: "https://nout.kz/upload/medialibrary/8c5/unnamed.0.0.jpg",
+    image: "https://mobcompany.info/wp-content/uploads/2019/09/01-2.jpeg",
   },
 ];
 
