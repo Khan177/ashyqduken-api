@@ -7,15 +7,19 @@ const categories = require("./categories").categories;
 const PORT = process.env.PORT;
 console.log(products);
 app.get("/", (req, res, next) => {
+  response.set("Access-Control-Allow-Origin", "*");
   res.json(products);
 });
 app.get("/phones", (req, res, next) => {
+  response.set("Access-Control-Allow-Origin", "*");
   res.json(phones);
 });
 app.get("/laptops", (req, res, next) => {
+  response.set("Access-Control-Allow-Origin", "*");
   res.json(laptops);
 });
 app.get("/categories", (req, res, next) => {
+  response.set("Access-Control-Allow-Origin", "*");
   res.json(categories);
 });
 app.listen(PORT);
